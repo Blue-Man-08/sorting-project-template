@@ -11,7 +11,7 @@ public class Main {
         //     of InsertionSort and Selection sort continue to work.
         //  4. Increase the loop count for TestSuite to get better performance results.
 
-        int[] testInput = {};
+        int[] testInput = { };
         InsertionSort t = new InsertionSort();
         t.sort(testInput);
         // Increase the loop count to get better results once it works.
