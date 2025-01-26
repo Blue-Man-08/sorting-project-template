@@ -15,7 +15,6 @@ public class Main {
         //  4. Increase the loop count for TestSuite to get better performance results.
         // Increase the loop count to get better results once it works.
         TestSuite.run(randomArrayGen(1000, 1000), 10000);
-        //TestSuite.run(randomArrayGen(10, 10), 1);
     }
     public static int[] randomArrayGen(int numRandoms, int highNum){
         Random random = new Random();
