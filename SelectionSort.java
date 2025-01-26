@@ -13,4 +13,5 @@ public class SelectionSort implements Sorter {
             input[i] = input[min_idx];
             input[min_idx] = temp;           
         }
+    }
 }
